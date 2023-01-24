@@ -1,0 +1,36 @@
+const bot = new TelegramBot('5759321259:AAH5pKO_CtuQFLkjMZDEE0S4tcH_AkK1-FE', { polling: true });
+openai.apiKey = "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";
+
+1) Node.js v18.12.1
+[nodemon] app crashed - waiting for file changes before starting...
+2)libaries {
+  "name": "chatgptbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitriiKob/ChatGPTBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitriiKob/ChatGPTBot/issues"
+  },
+  "homepage": "https://github.com/DmitriiKob/ChatGPTBot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0",
+    "nodemon": "^2.0.20",
+    "openai": "^3.1.0"
+  }
+}
+
+3)i run it on my computer
+
+I want a person to send a message to the bot, then the bot sends it to chat.gpt, then the bot sent a response to the user
